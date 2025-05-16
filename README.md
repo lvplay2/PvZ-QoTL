@@ -1,4 +1,4 @@
-# PvZ Quality of the Lawn-Decompile
+# PvZ QotL 2.0
  A edit of the PvZ Decompile that adds QoL features
 
 # Credits:
