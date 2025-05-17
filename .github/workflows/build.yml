@@ -52,5 +52,5 @@ jobs:
         UPLOAD_KEY: ${{ secrets.UPLOAD_KEY }}
       run: |
         ./upload.sh \
-          Debug/PvZ-QotL-Build.zip
+          PvZ-QotL-Build.zip
           
