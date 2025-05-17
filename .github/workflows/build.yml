@@ -42,9 +42,9 @@ jobs:
        name: PvZ-QotL-Build
        path: Debug
 
-    - name: Debug step
+    - name: Save build as zip
       run: |
-        find . -type f
+        zip -r PvZ-QotL-Build.zip Debug/
 
     - name: Upload Continuous Release
       env:
@@ -52,5 +52,5 @@ jobs:
         UPLOAD_KEY: ${{ secrets.UPLOAD_KEY }}
       run: |
         ./upload.sh \
-          PvZ-QotL-Build/PvZ-QotL-Build.zip
+          Debug/PvZ-QotL-Build.zip
           
