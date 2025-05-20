@@ -23,7 +23,7 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@main
       with:
-        name: PvZ-QotL-Build
+        name: PvZ-QoTL-Build
         path: |
           Debug/
 
@@ -39,12 +39,12 @@ jobs:
 
     - uses: actions/download-artifact@main
       with:
-       name: PvZ-QotL-Build
+       name: PvZ-QoTL-Build
        path: Debug
 
     - name: Save build as zip
       run: |
-        zip -r PvZ-QotL-Build.zip Debug/
+        zip -r PvZ-QoTL-Build.zip Debug/
 
     - name: Upload Continuous Release
       env:
@@ -52,5 +52,5 @@ jobs:
         UPLOAD_KEY: ${{ secrets.UPLOAD_KEY }}
       run: |
         ./upload.sh \
-          PvZ-QotL-Build.zip
+          PvZ-QoTL-Build.zip
           
