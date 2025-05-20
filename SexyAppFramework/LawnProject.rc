@@ -111,7 +111,7 @@ BEGIN
             VALUE "InternalName", "LawnProj.exe"
             VALUE "LegalCopyright", "Copyright (C) 2024"
             VALUE "OriginalFilename", "LawnProj.exe"
-            VALUE "ProductName", "PvZ QotL"
+            VALUE "ProductName", "PvZ QoTL"
             VALUE "ProductVersion", "1.0.0.1"
         END
     END
