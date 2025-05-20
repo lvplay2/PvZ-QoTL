@@ -1,4 +1,4 @@
-# PvZ QotL 2.0
+# PvZ QoTL 2.0
  A edit of the PvZ Decompile that adds QoL features
 
 # Credits:
